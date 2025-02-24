@@ -1,0 +1,39 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binary
+*.test
+
+# Output of the go build command
+/build/
+
+# Dependency directories (vendor/ for Go modules and dep)
+/vendor/
+
+# Go workspace file
+go.work
+
+# IDE/editor specific files
+.idea/
+.vscode/
+*.swp
+
+# Logs
+*.log
+
+# Coverage reports
+coverage.out
+
+# Go module cache and build cache (if working outside GOPATH)
+**/.cache/
+
+# Node modules (if using frontend tools in the project)
+/node_modules/
+
+# OS generated files
+.DS_Store
+Thumbs.db
