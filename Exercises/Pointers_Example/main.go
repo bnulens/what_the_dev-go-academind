@@ -1,8 +1,11 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"time"
+)
 
-const CURRENT_YEAR = 2024
+var CURRENT_YEAR = time.Now().Year()
 
 func main() {
 	var age int = 20
